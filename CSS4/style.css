@@ -1,0 +1,208 @@
+* { 
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+hr{
+    margin-top: 10px;
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.container .left-navigation{
+    position: absolute;
+    width: 96%;
+    height: 90%;
+    background-color: #1a1b1b;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.container .left-navigation .bookmark-logo h2 {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-;
+}
+.container .left-navigation .bookmark-logo ul li{
+    padding: 2px;
+}
+
+.container .left-navigation .bookmark-logo ul li a{
+    padding: 3px;
+    margin-left: 0px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.container .left-navigation .bookmark-logo ul li img {
+    margin-left: 20px;
+    width: 15px;
+}
+
+.container .left-navigation .bookmark-categories{
+    color: rgb(141, 128, 128);
+    margin-top: 25px;
+    padding: 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.container .left-navigation .Categories .single-category{
+   position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.container .left-navigation .Categories .single-category a{
+    color: white;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .left-navigation .Categories .single-category .single-category-name{
+    margin-left: 40px;
+}
+
+.container .left-navigation .Categories .single-category img{
+   position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.container .left-navigation .add-collection {
+    position: relative;
+}
+
+.container .left-navigation .add-collection .image-collection img {
+    margin-left: 10px;
+}
+
+.container .left-navigation .add-collection .name-collection  {
+    position:absolute;
+    color: rgb(141, 128, 128);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+.container .body-nav{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container .body-nav .header-navigation{
+    margin-top: 50px;
+}
+.container .body-nav .header-navigation .search-category input{
+    margin-top: 0px;
+    width: 250px;
+    height: 25px;
+    margin-left: 700px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    border-style: dotted;
+    text-align: center;
+}
+
+.container .body-nav .header-navigation .search-category img{
+    position: absolute;
+    margin-top: 0px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.container .body-nav .header-navigation .choose-category p{
+    position: absolute;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: -60px;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .body-nav .header-navigation .choose-category select{
+    position: absolute;
+    margin-top: -30px;
+    width: 260px;
+    height: 30px;
+    margin-left: 40px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    border-style: dotted;
+    color: white;
+}
+
+.container .body-nav .header-navigation .top-line-bar {
+    margin-left: 140px;
+    width: 700px;
+}
+
+.container .body-nav .top-navigation {
+    margin-left: 50px;
+}
+
+.container .body-nav .top-navigation .single-bookmark {
+    position: absolute;
+    padding: 10px;
+}
+
+.container .body-nav .top-navigation .single-bookmark ul a img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -10px;  
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;  
+    
+}
+
+.container .body-nav .top-navigation .single-bookmark ul a h4{
+    position: absolute;
+    margin-left: 120px;  
+    margin-top: 5px; 
+    color: black;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.container .body-nav .top-navigation .single-bookmark .single-bookmark-detail{
+   width: 600px;
+   height: 40px;
+   margin-top: 10px;
+   margin-left: 120px;
+   font-size: 12px;
+   color: black;
+   font-style: italic;
+}
+
